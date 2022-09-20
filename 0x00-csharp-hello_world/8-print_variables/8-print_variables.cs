@@ -1,7 +1,5 @@
 ﻿using System;
 
-namespace _8_print_variables
-{
     class Program
     {
         static void Main(string[] args)
@@ -12,4 +10,3 @@ namespace _8_print_variables
             Console.WriteLine("{2} {1} {0} ", str1, str2, int1);
         }
     }
-}
