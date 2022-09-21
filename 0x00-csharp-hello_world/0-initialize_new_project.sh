@@ -1,7 +1,3 @@
 #!/usr/bin/env bash
-
-mkdir 0-new_project
-cd 0-new_project
-dotnet new console
-echo "The template 'Console Application' was created successfully."
-exit
+# initializes a new C# project inside a folder titled 0-new_project
+dotnet new console -o 0-new_project
