@@ -6,7 +6,7 @@
         {
             Random rndm = new Random();
             int number = rndm.Next(-10000, 10000);
-            Console.WriteLine("The last digit of " + number + " is ");
+            Console.WriteLine("The last digit of" + number + " is ");
             if(number > 5)
             {
                 Console.WriteLine("greater than 5");    
@@ -17,7 +17,7 @@
             }
             else 
             {
-                Console.WriteLine("0");
+                Console.WriteLine(" and is 0");
             }
         }
     }
