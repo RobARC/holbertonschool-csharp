@@ -8,13 +8,13 @@
             int number = rndm.Next(-10, 10);
 
             if(number == 0){
-                Console.WriteLine(number + " is zero\n");
+                Console.WriteLine(number + " is zero");
             }
             if(number > 0){
-                Console.WriteLine(number + " is positive\n");
+                Console.WriteLine(number + " is positive");
             }
             if(number < 0){
-                Console.WriteLine(number + " is negative\n");
+                Console.WriteLine(number + " is negative");
             }
         }
     }
