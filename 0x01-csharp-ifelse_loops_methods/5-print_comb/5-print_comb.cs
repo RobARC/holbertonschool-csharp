@@ -13,7 +13,7 @@ namespace _5_print_comb
                     Console.Write($"{i:d2}, ");
                 }
                 else
-                    Console.Write(i);    
+                    Console.WriteLine(i);    
             }
            
         }
