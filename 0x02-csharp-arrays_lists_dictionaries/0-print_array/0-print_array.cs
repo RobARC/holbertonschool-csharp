@@ -12,7 +12,7 @@ class Array
 
         int [] myArray = new int[size];
         if (size == 0){
-            Console.WriteLine("$");
+            Console.WriteLine("");
         } 
         else 
         {
@@ -24,7 +24,7 @@ class Array
                     Console.Write(myArray[i] + " ");
                  }
                  else{
-                    Console.Write(myArray[i] + "$");
+                    Console.Write(myArray[i]);
                  }
              }
              Console.WriteLine("");
