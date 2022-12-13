@@ -5,11 +5,11 @@ class Dictionary
 {
     public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
-        int Counter = 0;
-        foreach(var pair in myDict)
+        int counter = 0;
+        foreach(KeyValuePair<string, string> pair in myDict)
         {
-            Counter++;
+            counter++;
         }
-        return Counter;
+        return counter;
     }
 }
