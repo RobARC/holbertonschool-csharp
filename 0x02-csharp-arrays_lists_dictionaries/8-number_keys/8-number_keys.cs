@@ -6,9 +6,9 @@ class Dictionary
     public static int NumberOfKeys(Dictionary<string, string> myDict)
     {
         int Counter = 0;
-        foreach(KeyValuePair<string, string> pair in myDict)
+        foreach(var pair in myDict)
         {
-            Counter += 1;
+            Counter++;
         }
         return Counter;
     }
