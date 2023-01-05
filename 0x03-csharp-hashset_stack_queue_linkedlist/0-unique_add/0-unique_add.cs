@@ -1,18 +1,17 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
-namespace _0_unique_add
+class List 
 {
-    class List
+    public static int Sum(List<int> myList)
     {
-        public static int Sum(List<int> myList)
-        {
-            int sum = 0;
-            HasSet<int> set = new HasSet<int>(myList);
-            foreach (int num in set)
-                sum += num;
+        int mySum = 0;
+       IEnumerable<int> sum = myList.Distinct();
 
-            return sum;
-        }
+       foreach (int num in sum){
+        mySum += num;
+       }
+
+        return mySum;
     }
 }
