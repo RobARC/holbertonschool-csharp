@@ -6,7 +6,7 @@ class List
     public static int Sum(List<int> myList)
     {
         int mySum = 0;
-       IEnumerable<int> sum = myList.Distinct();
+       HashSet<int> sum = new HashSet<int>(myList);
 
        foreach (int num in sum){
         mySum += num;
