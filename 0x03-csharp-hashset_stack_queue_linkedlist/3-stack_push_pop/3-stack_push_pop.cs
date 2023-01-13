@@ -8,17 +8,17 @@ class MyStack
         string aux = "";
         bool check = true;
        
-        Console.WriteLine("\nNumber of items: {0}", aStack.Count);
+        Console.WriteLine("Number of items: {0}", aStack.Count);
 
         if (aStack.Count > 0)
-            Console.WriteLine("\nTop item: {0}", aStack.Peek());
+            Console.WriteLine("Top item: {0}", aStack.Peek());
         else
             Console.WriteLine("Stack is empty");
 
         if(aStack.Contains(search))
-            Console.WriteLine($"\nStack contains \"{search}\": True");
+            Console.WriteLine($"Stack contains \"{search}\": True");
         else
-            Console.WriteLine($"\nStack contains \"{search}\": False");
+            Console.WriteLine($"Stack contains \"{search}\": False");
 
         while (check)
         {
