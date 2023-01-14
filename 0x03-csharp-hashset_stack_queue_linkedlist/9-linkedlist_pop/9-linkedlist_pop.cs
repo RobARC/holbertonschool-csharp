@@ -5,11 +5,14 @@ class LList
 {
     public static int Pop(LinkedList<int> myLList)
     {
-        int first = myLList.First.Value;
-        
-        if (myLList.Count < 0 || myLList == null)
+        try
+        {
+            int first = myLList.First.Value;
+            return first;
+        }
+        catch
+        {
             return 0;
-
-        return first;
+        }
     }
 }
