@@ -16,17 +16,16 @@ class List
                 newList.Add(result);
                 
             }
+             catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("Out of range");
+            }
             catch (DivideByZeroException)
             {
                 Console.WriteLine("Cannot divide by zero");
                 result = 0;
                 newList.Add(result);
             }
-            catch (ArgumentOutOfRangeException)
-            {
-                Console.WriteLine("Out of range");
-            }
-            
         }
         return newList;
     }
