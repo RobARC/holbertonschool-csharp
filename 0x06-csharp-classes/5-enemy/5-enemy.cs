@@ -40,10 +40,10 @@ namespace Enemies
             return health;
         }
 
-        ///<summary>Public method override ToString</summary>
+        ///<summary>Prints the zombie's name and health'.</summary>
         public override string ToString()
         {
-            return "Zombie Name: " + name + " /" + " Health: " + health;
+            return $"Zombie Name: {name} / Health: {health}";
 
         }
 
