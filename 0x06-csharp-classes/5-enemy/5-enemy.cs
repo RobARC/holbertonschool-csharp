@@ -5,7 +5,7 @@ namespace Enemies
     ///<summary>Defines a Zombie.</summary>
     public class Zombie
     {
-        ///<summary>Zombie Health</summary>
+        ///<summary>Zombie health</summary>
         private int health;
         ///<summary>Zombie name</summary>
         private string name = "(No name)";
